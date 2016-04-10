@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Dojos</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/stylesheet.css')}}">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='js/javascript.js')}}"></script>
+</head>
+<body>
+	<h1>Welcome to the Dojos page</h1>
+
+	<form action='/newUser' method='post'>
+
+	<h2>submit form to become part of dojo</h2>
+		<p>Name:</p> <input type="text" name="name">
+		<p>email:</p> <input type="text" name="email">
+		<p>Contact#:</p><input type="text" name="phone">
+		<input id="submit" type="submit" value="Become a Member">
+	</form>
+</body>
+</html>

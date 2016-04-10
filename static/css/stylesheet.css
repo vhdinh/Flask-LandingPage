@@ -1,0 +1,28 @@
+* {
+	font-family: arial;
+}
+
+form {
+	border: 1px solid black;
+	width: 500px;
+}
+
+h2 {
+	margin-left: 25px;
+}
+form p {
+	display: inline-block;
+	width: 150px;
+	margin-left: 25px;
+}
+
+form input {
+	width: 300px;
+}
+
+#submit {
+	margin-left: 175px;
+	margin-bottom:  25px;
+	background: gray;
+	color: white;
+}
